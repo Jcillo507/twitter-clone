@@ -1,0 +1,22 @@
+.sidebar{
+  border-right: 10px solid $background;
+  flex:0.3;
+  min-width:250px;
+  margin-left:20px;
+  &__twitterIcon{
+    color: $primary-color;
+    font-size: 30px !important;
+    margin: 10px 20px 20px 20px;
+  }
+  &__tweet{
+    background-color: $primary-color;
+    border: none;
+    color: white;
+    font-weight: 900;
+    text-transform: inherit;
+    border-radius:30px;
+    height:50px;
+    margin-top: 20px;
+    width:90%;
+  }
+}
